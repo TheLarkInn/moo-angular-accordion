@@ -1,6 +1,6 @@
 {
   "name": "moo-angular-accordion",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "AngularJS Directive Component of the UI-Toolkit's Accordion for Mutual of Omaha's DXD Team",
   "main": "dist/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "angular": "^1.4.8"
   },
   "devDependencies": {
+    "angular": "^1.4.8",
     "babel": "^6.1.18",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
