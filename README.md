@@ -13,3 +13,13 @@ const app = angular.module('myAngularApplicationWithDependancies', ['mooAngular.
 var mooAngularAccordion = require('moo-angular-accordion');
 const app = angular.module('myAngularApplicationWithDependancies', ['mooAngular.accordion']);
 ```
+
+### Browser Tag's
+```html
+<!--  Example CDN Hosting For Node Modules. Official CDN TBD -->
+<script src='//npm-cdn.herokuapp.com/moo-angular-accordion@1.1.1/dist/index.js' />
+
+```
+
+##Example
+[See this codepen](http://codepen.io/TheLarkInn/pen/PPrPWP#0) to preview the implementation live. 
