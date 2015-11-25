@@ -1,6 +1,5 @@
 node_modules
 bundle.js
 npm-debug.log
-/dist/*
 /src/main.js
 /src/main.js.map
