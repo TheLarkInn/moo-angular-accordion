@@ -16,4 +16,6 @@ export default app => {
      .directive('mooAccordionPanelHeader', ['$parse', mooAccordionPanelHeaderComponent])
      .directive('mooAccordionPanelBody', ['$parse', mooAccordionPanelBodyComponent])
      .controller('mooAccordionPanelCtrl', mooAccordionPanelCtrl);
+
+  mooRepeatTranscludeDirective(app);   
 }
