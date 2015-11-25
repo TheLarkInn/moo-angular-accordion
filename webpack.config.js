@@ -11,7 +11,7 @@ var config = {
   ],
   output: {
     path: __dirname + '/src',
-    filename: '[name].js'
+    filename: 'index.js'
   },
   resolve: {
     root: __dirname + '/src'
@@ -53,14 +53,14 @@ switch (nodeEnvironment) {
     config.plugins.push(new webpack.optimize.DedupePlugin());
     config.plugins.push(new webpack.optimize.OccurenceOrderPlugin());
     
-    config.output.filename = '[name].js';
+    config.output.filename = 'index.js';
     config.entry ='./index.js';
     config.devtool = 'source-map';
     break;
 
   case 'development':
     config.devtool = 'source-map';
-    config.entry = './index.js';
+    config.entry = {index:  './index.js'};
     break;
     
   default: 
