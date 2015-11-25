@@ -1,8 +1,8 @@
 {
   "name": "moo-angular-accordion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AngularJS Directive Component of the UI-Toolkit's Accordion for Mutual of Omaha's DXD Team",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "export NODE_ENV=development && webpack --devtool=source-map --progress --colors --content-base src",
     "build": "export NODE_ENV=production && node node_modules/.bin/webpack"
