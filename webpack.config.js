@@ -10,7 +10,7 @@ var config = {
     })
   ],
   output: {
-    path: __dirname + '/src',
+    path: __dirname + '/dist',
     filename: 'index.js'
   },
   resolve: {
