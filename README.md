@@ -21,5 +21,5 @@ const app = angular.module('myAngularApplicationWithDependancies', ['mooAngular.
 
 ```
 
-##Example
+## Example
 [See this codepen](http://codepen.io/TheLarkInn/pen/PPrPWP#0) to preview the implementation live. 
